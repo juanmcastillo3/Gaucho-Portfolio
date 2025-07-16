@@ -11,6 +11,8 @@ export default function Intro() {
     return () => clearTimeout(timer);
   }, []);
 
+  
+
   return (
     <section className="intro">
       <div className="intro-text">

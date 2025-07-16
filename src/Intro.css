@@ -105,27 +105,28 @@
     text-align: left;
   }
 
-.typewriter {
-  border-right: 2px solid #f953c6;
-  white-space: nowrap;
-  overflow: hidden;
-  display: inline-block;
-  font-size: 1.5rem;
-  animation: blink 0.7s infinite;
-  color: #ffffff;
-}
-
-.loop-typewriter {
-  margin-top: 0.8rem;
-  font-size: 1.3rem;
-}
-
-@keyframes blink {
-  0%, 100% {
-    border-color: transparent;
+  .typewriter {
+    border-right: 2px solid #f953c6;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    font-size: 1.5rem;
+    animation: blink 0.7s infinite;
+    color: #ffffff;
   }
-  50% {
-    border-color: #f953c6;
+
+  .loop-typewriter {
+    margin-top: 0.8rem;
+    font-size: 1.3rem;
   }
-}
+
+  @keyframes blink {
+    0%,
+    100% {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #f953c6;
+    }
+  }
 }
